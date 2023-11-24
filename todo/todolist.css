@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right,grey,green);
+    color: blanchedalmond;
+}
+header{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+   padding: 10px;
+   background-color: blueviolet;
+} 
+header h2{
+    font-size: 35px;
+    
+}
+.fa-square-check{
+ padding-right: 5px;
+}
+header a{
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 30px;
+    color:aliceblue;
+    font-size: 25px;
+}
+.task{
+    height: 400px;
+    
+}
+.add{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.add input{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.add button{
+    font-size: 22px;
+    border-radius: 3px;
+    background-color: coral;
+    color: black;
+}
+.task1{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+.add button{
+    border-radius: 7px;
+    color: black;
+    background-color: blueviolet;
+
+}
+.submit{
+    margin-top: 10px;
+    padding: 5px;
+        
+}
+.task1 h3{
+
+}

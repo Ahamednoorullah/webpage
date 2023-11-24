@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="/css/todolist.css">
+</head>
+<body>
+    <div class="container"> 
+        <div class="nav">
+            <header>
+                <h2><i class="fa-solid fa-square-check"></i>Todo List</h2>
+                <div class="log">
+                    <a href="">List</a>
+                    <a href="">Status</a>
+                   <a href="/html/todo.html">Home</a>
+                   
+                </div>
+            </header>
+        </div>
+
+        <div class="task">
+            <div class="add">
+                <input type="date" name="date" id="date">
+               
+                <input type="text"  placeholder="Type here">
+                <label for="Priority">Select Priority</label>
+                <select name="useroption" id="choosepriority">
+                    <option value="Important">Important</option>
+                    <option value="Not Impotant">Not Important</option>
+                </select>
+                <br>
+                <button class="submit">Submit</button>
+            </div>
+
+            <div class="task1">
+                <h3>Today</h3>
+                <hr>
+              <ol class="list1">
+                    
+              </ol>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+</html>
