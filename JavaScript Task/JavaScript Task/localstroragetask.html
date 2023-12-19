@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <style>
+        table,tr,td,th{
+        align-items: center;
+        padding: 10px;
+       }
+       th{
+        background-color: black;
+        color: azure;
+        border: 1px solid;
+       }
+       tr:nth-child(even){
+        background-color: #D6EEEE;
+       }
+       td{
+        border-bottom: 1px solid grey;
+       }
+       .search{
+        width: 400px;
+        padding: 30px;
+        background-color: burlywood;
+        margin-left: 300px;
+       }
+       .search input{
+        padding: 10px;
+       }
+       button{
+        padding: 10px;
+        color: black;
+        background-color: blanchedalmond;
+        cursor: pointer;
+       }
+      h2{
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Id</th>
+            <th>Email</th>
+            <th>Mobile No</th>
+        </tr>
+        </thead>
+        <tbody id="dyTableRows">
+        <tr >
+            <td class="td1"></td>
+            <td class="td2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+    </table>
+
+    <div class="search">
+        <h2>Search data</h2>
+        <input type="number" name="id" id="inputUser" placeholder="Enter User Id">
+        <button type="submit" id="searchBtn" onclick="myFunction()" >Search</button>
+        <p id="check"></p>
+                        
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Email</th>
+                <th>Mobile No</th>
+            </tr>
+            </thead>
+            <tbody id="dyTableRows1">
+            <tr >
+                <td ></td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+          
+
+    <div>
+        <p id="ss"></p>
+    </div>
+    
+          
+    ,<script src="/Js/localstoragetask.js"></script>
+</body>
+</html>

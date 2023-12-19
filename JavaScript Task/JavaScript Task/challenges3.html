@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Challenges</title>
+     <Style>
+        #displayBlock{
+           
+            margin-left: 200px;
+        }
+        #displayNone{
+           margin-left: 80px;
+        }
+        .displayTable{
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 15px;
+            background-color: cadetblue;
+            color:black;
+        }
+       #table{
+        display: none;
+       }
+       table,tr,td,th{
+        align-items: center;
+        padding: 10px;
+       }
+       th{
+        background-color: black;
+        color: azure;
+        border: 1px solid;
+       }
+       tr:nth-child(even){
+        background-color: #D6EEEE;
+       }
+       td{
+        border-bottom: 1px solid grey;
+       }
+     </Style>
+</head>
+<body>
+    <div><button id="displayBlock" class="displayTable" onclick="displayBlock()">Click Show Table</button>
+    <button id="displayNone" class="displayTable" onclick="displayNone()">Click Hide Table</button></div>
+    <table id="table">
+        <thead>
+        <tr>
+           <th>No</th>
+           <th>Name</th>
+           <th>Id</th>
+           <th>Status</th>
+           <th>Sperc</th> 
+        </tr>
+    </thead>
+        <tbody id="dyTableRows">
+        <tr>
+            <td>1</td>
+            <td>adam</td>
+            <td>4</td>
+            <td>fail</td>
+            <td>12</td> 
+         </tr>
+         <tr>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>Python</td>
+            <td>false</td> 
+         </tr>
+        </tbody>
+
+    </table>
+    
+    <script src="/Js/challenges3.js"></script>
+</body>
+</html>
