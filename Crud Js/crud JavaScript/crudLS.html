@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Operation</title>
+    <link rel="stylesheet" href="/css/crudLS.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form" id="form">
+            <h1>Product Crud Application</h1>
+                    <div class="input-group">
+                        <label for="productCode">Product Code</label>
+                        <input type="text" name="productCode" placeholder="Enter Product Code" id="productCode">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-group">
+                        <label for="product">Product</label>
+                        <input type="text" name="productC" placeholder="Enter Product" id="product">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-group">
+                        <label for="qty">Qty</label>
+                        <input type="number" name="qty" placeholder="Enter Qty " id="qty">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-group">
+                        <label for="price">Price</label>
+                        <input type="number" name="price" placeholder="Enter Price" id="price">
+                        <div class="error"></div>
+                    </div>
+                    <div class="add-button">
+                    <button type="submit" id="addData" onclick="addData()">Added</button>
+                    <button type="submit" id="update" >Update</button>
+                    </div>
+        </div>
+
+        <div class="showTable">
+            <table class="crudTable" id="crudTable">
+                <thead>
+                    <tr>
+                        <th>Product Code</th>
+                        <th>Product</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                        <th>Edit</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+
+    
+    <script src="/Js/crudLS.js"></script>
+</body>
+</html>

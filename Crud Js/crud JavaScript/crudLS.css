@@ -1,0 +1,96 @@
+body{
+    background-color: #f0f2f2;
+}
+.form{
+    width: 400px;
+    
+    margin: 0vh auto 0 auto;
+    background-color:#d6f1f2;
+    border-radius: 5px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: #22c1c3;
+
+}
+.form button{
+    background-color: #22c1c3;
+    color: black;
+    border: 1px solid  #22c1c3;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid  #22c1c3;
+}
+.input-group input:focus{
+    outline: 0;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: #d6f1f2;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td{
+    border: 1px solid #4d4f35;
+    text-align: left;
+    padding: 8px 15px;
+}
+tr:nth-child(odd){
+    background-color: aliceblue;
+}
+th{
+    font-size: 20px;
+    color: #1381ab;
+}
+.add-button button:hover{
+    background-color: aqua;
+}
+#update{
+    display: none;
+}
+.showTable button{
+    background-color: #22c1c3;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.showTable button:focus{
+    background-color:blue;
+}
+.showTable button:hover{
+    background-color:aqua;
+}
+.showTable #updateData{
+    margin-left: 5px;
+}
+tr > td:last-of-type{
+  text-align: center;
+  background-color: #cdf1f2;
+}
+.input-group .error{
+    color: #f00000;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.input-group.error input{
+    border-color: #f00000;
+}
